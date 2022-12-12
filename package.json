@@ -13,6 +13,7 @@
   "author": "Elis Antonio Perez <elisperezmusic@gmail.com> (https://www.instagram.com/elisperezmusic)",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "sass": "^1.56.2"
   }
 }
