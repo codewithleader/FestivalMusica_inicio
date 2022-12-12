@@ -111,6 +111,7 @@ dist/
 dist
 dist-ssr
 *.local
+build/
 
 # Gatsby files
 .cache/
