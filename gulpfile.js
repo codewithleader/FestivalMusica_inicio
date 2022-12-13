@@ -5,7 +5,7 @@ function css(done) {
   // Identificar el archivo de SASS
   // Compilarlo
   // Guardarlo en un archivo CSS
-  src('src/scss/app.scss')
+  src('src/scss/**/*.scss')
     .pipe(sass())
     .pipe(dest('build/css'));
 
@@ -13,7 +13,7 @@ function css(done) {
 }
 
 function dev(done) {
-  watch('src/scss/app.scss', css)
+  watch('src/scss/**/*.scss', css)
 
   done();
 }

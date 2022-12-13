@@ -1,7 +1,3 @@
-@import 'base/variables'; // Sintaxis anterior.
-@import 'contenido/contenido';
-
-
-body {
-  background-color: $rojo;
-}
+@use 'base';
+@use 'contenido';
+@use 'ui';
