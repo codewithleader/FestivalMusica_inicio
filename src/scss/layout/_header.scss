@@ -11,6 +11,12 @@
 }
 // El ampersand "&" elimina el espacio de separacion entre a :hover quedando a:hover en el file compilado
 .navegacion-principal {
+  @include m.telefono {
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
   a {
     color: v.$blanco;
     font-size: 2.4rem;
@@ -19,12 +25,4 @@
       color: v.$amarillo;
     }
   }
-}
-
-.prueba {
-  @include m.heading(v.$verde, true);
-}
-
-.texto {
-  @include m.heading;
 }

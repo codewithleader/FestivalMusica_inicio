@@ -1,13 +1,8 @@
-// Directivas: @mixin, @forward, @use, @include...
+// Directivas: @mixin, @forward, @use, @include. @if...
+@use 'variables' as v;
 
-@mixin heading($color: blue, $border-radius: false) {
-  text-transform: uppercase;
-  font-size: 2.4rem;
-  color: $color;
-  letter-spacing: 1px;
-  background-color: forestgreen;
-
-  @if $border-radius {
-    border-radius: 1rem;
+@mixin telefono {
+  @media (min-width: 480px) {
+    @content;
   }
 }
