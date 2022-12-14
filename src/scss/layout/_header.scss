@@ -22,7 +22,7 @@
 }
 
 .prueba {
-  @include m.heading;
+  @include m.heading(v.$verde);
 }
 
 .texto {
