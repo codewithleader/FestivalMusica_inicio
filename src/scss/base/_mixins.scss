@@ -1,8 +1,13 @@
 // Directivas: @mixin, @forward, @use, @include...
 
-@mixin heading($color: blue) {
+@mixin heading($color: blue, $border-radius: false) {
   text-transform: uppercase;
   font-size: 2.4rem;
   color: $color;
   letter-spacing: 1px;
+  background-color: forestgreen;
+
+  @if $border-radius {
+    border-radius: 1rem;
+  }
 }
