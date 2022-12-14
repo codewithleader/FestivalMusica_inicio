@@ -11,10 +11,19 @@
 }
 // El ampersand "&" elimina el espacio de separacion entre a :hover quedando a:hover en el file compilado
 .navegacion-principal {
+  background-color: red;
+
   @include m.telefono {
-    background-color: red;
-    text-transform: uppercase;
-    font-weight: bold;
+    background-color: blue;
+  }
+  @include m.tablet {
+    background-color: yellow;
+  }
+  @include m.desktop {
+    background-color: green;
+  }
+  @include m.desktopXL {
+    background-color: pink;
   }
 
   a {
