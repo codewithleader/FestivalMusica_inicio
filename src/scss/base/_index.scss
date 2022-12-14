@@ -1,1 +1,5 @@
+// Directivas: @mixin, @forward, @use, @include...
 @forward 'variables';
+@forward 'mixins';
+@forward 'normalize';
+@forward 'globales';

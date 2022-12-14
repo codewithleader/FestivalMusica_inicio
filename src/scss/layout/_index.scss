@@ -1,3 +1,2 @@
 // Directivas: @mixin, @forward, @use, @include...
-@use 'base';
-@use 'layout';
+@forward 'header';
