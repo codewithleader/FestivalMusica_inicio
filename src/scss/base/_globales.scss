@@ -16,6 +16,12 @@ body {
   font-family: v.$fuente_principal;
 }
 
+p {
+  font-size: 2rem;
+  color: v.$negro;
+  line-height: 1.5;
+}
+
 .contenedor {
   width: 95%;
   max-width: 120rem;
@@ -42,4 +48,9 @@ h2 {
 
 h3 {
   font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
